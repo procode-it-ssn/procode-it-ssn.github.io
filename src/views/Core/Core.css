@@ -1,0 +1,74 @@
+.intro-logo {
+  height: 40vh;
+  display: flex;
+}
+
+.intro-container {
+  margin: 0 auto;
+  width: 75vw;
+}
+
+.core {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  font-size: 1.1rem;
+  text-align: center;
+}
+
+.parallax {
+  /* The image used */
+  background-image: url("garden4.jpg");
+
+  /* Set a specific height */
+  min-height: 500px;
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.parallax h1 {
+  background: rgba(0, 0, 0, 0.75);
+  color: white;
+}
+
+.bg {
+  height: 100%;
+  width: 100%;
+  position: relative;
+
+  font-size: 36px;
+  color: #ffffff;
+}
+
+.left_img {
+  margin-left: 100px;
+}
+
+.right_img {
+  margin-right: 100px;
+}
+
+.ImageBorder {
+  /* border-width: 100px; */
+  border-color: Black;
+}
+
+.box_for_core_members {
+  width: 40%;
+  height: 40%;
+
+  margin-bottom: 2%;
+  margin-top: 2%;
+  background-color: #ffffff;
+  border: 5% solid #000000;
+  box-shadow: 10px 10px 5px 5px rgba(0, 0, 0, 0.2);
+  border-radius: 10px;
+}
+.before_box {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+}

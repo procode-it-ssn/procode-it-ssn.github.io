@@ -1,0 +1,13 @@
+.footer {
+  color: white;
+  background: #2e2e2e;
+}
+.done-by ul * {
+  padding-bottom: 0.3rem;
+}
+.done-by ul li a:hover {
+  color: rgb(47, 99, 221) !important;
+}
+.done-by ul li a {
+  font-weight: 700;
+}

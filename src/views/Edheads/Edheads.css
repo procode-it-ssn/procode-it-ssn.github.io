@@ -1,0 +1,47 @@
+.intro-logo {
+  height: 40vh;
+  display: flex;
+}
+
+.intro-container {
+  margin: 0 auto;
+  width: 75vw;
+}
+
+.event {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  font-size: 1.1rem;
+  text-align: center;
+}
+
+.design {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  font-size: 1.1rem;
+  text-align: center;
+}
+.details {
+  display: flex;
+  justify-content: space-around;
+}
+
+.parallax3 {
+  /* The image used */
+  background-image: url("garden2.jpg");
+
+  /* Set a specific height */
+  min-height: 500px;
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.parallax3 h1 {
+  background: rgba(0, 0, 0, 0.75);
+  color: white;
+}

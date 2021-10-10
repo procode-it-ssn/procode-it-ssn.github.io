@@ -1,0 +1,4 @@
+.insta-icon:hover {
+  filter: invert(8%) sepia(100%) saturate(7367%) hue-rotate(248deg)
+    brightness(96%) contrast(144%);
+}

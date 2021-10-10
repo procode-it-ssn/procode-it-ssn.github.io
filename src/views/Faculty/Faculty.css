@@ -1,0 +1,26 @@
+.intro-logo {
+  height: 40vh;
+  display: flex;
+}
+.intro {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  font-size: 1.1rem;
+  text-align: center;
+}
+.intro-container {
+  margin: 0 auto;
+  width: 75vw;
+}
+.intro-text {
+  font-size: 1.1rem;
+}
+
+.fac-prof-link:hover{
+  text-decoration: underline !important;
+}
+
+.fac-prof-link {
+  color: rgb(20, 72, 193) !important;
+}

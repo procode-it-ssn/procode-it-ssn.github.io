@@ -1,0 +1,40 @@
+.intro-logo {
+  height: 40vh;
+  display: flex;
+}
+
+.pres {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  font-size: 1.1rem;
+  text-align: center;
+}
+
+.vpres {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  font-size: 1.1rem;
+  text-align: center;
+}
+
+.intro-container {
+  margin: 0 auto;
+  width: 75vw;
+}
+.parallax2 {
+  /* The image used */
+  background-image: url("garden.jpg");
+
+  min-height: 500px;
+
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.parallax2 h1 {
+  background: rgba(0, 0, 0, 0.75);
+  color: white;
+}
