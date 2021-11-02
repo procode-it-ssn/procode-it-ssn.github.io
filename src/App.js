@@ -13,16 +13,16 @@ import Footer from "./components/Footer";
 function App() {
   return (
     <div className="App">
-      <Navbar />
       <HashRouter>
+      <Navbar />
         <Switch>
-          <Route exact path="/" component={Home} />
-          <Route exact path="/office" component={Office} />
-          <Route exact path="/theads" component={Theads} />
-          <Route exact path="/edheads" component={Edheads} />
-          <Route exact path="/core" component={Core} />
-          <Route exact path="/faculty" component={Faculty} />
-          <Route exact path="*" component={null} />
+          <Route exact path="/" exact component={Home} />
+          <Route exact path="/office" exact component={Office} />
+          <Route exact path="/theads" exact component={Theads} />
+          <Route exact path="/edheads" exact component={Edheads} />
+          <Route exact path="/core" exact component={Core} />
+          <Route exact path="/faculty" exact component={Faculty} />
+          <Route exact path="*" exact component={null} />
         </Switch>
       </HashRouter>
       <Footer />
