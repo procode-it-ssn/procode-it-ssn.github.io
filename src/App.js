@@ -1,7 +1,7 @@
 import "./App.css";
 // import "bootstrap/dist/css/bootstrap.min.css";
 // import bootstrap from "bootstrap";
-import { BrowserRouter as HashRouter, Route, Switch } from "react-router-dom";
+import { HashRouter as Router, Route, Switch } from "react-router-dom";
 import { Navbar } from "./components/Navbar/Navbar";
 import Home from "./views/Home/Home";
 import { Faculty } from "./views/Faculty/Faculty";
@@ -13,18 +13,18 @@ import Footer from "./components/Footer";
 function App() {
   return (
     <div className="App">
-      <HashRouter>
-      <Navbar />
+      <Router>
+        <Navbar />
         <Switch>
           <Route exact path="/" exact component={Home} />
           <Route exact path="/office" exact component={Office} />
           <Route exact path="/theads" exact component={Theads} />
           <Route exact path="/edheads" exact component={Edheads} />
           <Route exact path="/core" exact component={Core} />
-          <Route exact path="/faculty" exact component={Faculty} />
+          <Route exact path="/faculty/" exact component={Faculty} />
           <Route exact path="*" exact component={null} />
         </Switch>
-      </HashRouter>
+      </Router>
       <Footer />
     </div>
   );

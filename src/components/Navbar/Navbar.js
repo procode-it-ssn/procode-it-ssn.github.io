@@ -1,5 +1,6 @@
 import React from "react";
 import "./navbar.css";
+import { Link } from "react-router-dom";
 import Ssn_img from "../../img/ssnlogo1.png";
 
 export const Navbar = () => {
@@ -52,14 +53,14 @@ export const Navbar = () => {
               </a>
             </li>
             <li className="nav-item">
-              <a className="nav-link active" href="/">
+              <Link className="nav-link active" to="/">
                 Home
-              </a>
+              </Link>
             </li>
             <li className="nav-item">
-              <a className="nav-link" href="/faculty">
+              <Link className="nav-link" to="/faculty">
                 The Faculty
-              </a>
+              </Link>
             </li>
             <li className="nav-item dropdown">
               <div
@@ -72,31 +73,31 @@ export const Navbar = () => {
               </div>
               <ul className="dropdown-menu">
                 <li>
-                  <a className="dropdown-item" href="/office">
+                  <Link className="dropdown-item" to="/office">
                     Office Bearers
-                  </a>
+                  </Link>
                 </li>
                 <li>
-                  <a className="dropdown-item" href="/theads">
+                  <Link className="dropdown-item" to="/theads">
                     Team Heads
-                  </a>
+                  </Link>
                 </li>
                 <li>
-                  <a className="dropdown-item" href="/edheads">
+                  <Link className="dropdown-item" to="/edheads">
                     Event and Design Heads
-                  </a>
+                  </Link>
                 </li>
                 <li>
-                  <a className="dropdown-item" href="/core">
+                  <Link className="dropdown-item" to="/core">
                     Core Team Members
-                  </a>
+                  </Link>
                 </li>
               </ul>
             </li>
             <li className="nav-item">
-              <a className="nav-link" href="/events">
+              <Link className="nav-link" to="/events">
                 Events
-              </a>
+              </Link>
             </li>
           </ul>
         </div>
