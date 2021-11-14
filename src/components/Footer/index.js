@@ -7,6 +7,7 @@ export const Footer = () => {
     <div className="footer">
       <div className="container">
         <div className="py-3 pb-1 d-flex flex-column flex-md-row justify-content-center align-items-center text-center">
+          <h5>Webmasters : </h5>
           <div className="done-by flex-grow-1">
             <ul className="row w-100">
               <li className="col-md-6">
