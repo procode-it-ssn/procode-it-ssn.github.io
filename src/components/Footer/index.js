@@ -21,6 +21,11 @@ export const Footer = () => {
                 </a>
               </li>
               <li className="col-md-4">
+                <a href="https://in.linkedin.com/in/harrison-vijay">
+                  Harrison Vijay J
+                </a>
+              </li>
+              <li className="col-md-4">
                 <a href="https://www.linkedin.com/in/aadhithya-b-kailash-195b115b/">
                   Aadhithya B Kailash
                 </a>
