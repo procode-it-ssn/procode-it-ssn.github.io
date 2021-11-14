@@ -6,31 +6,31 @@ export const Footer = () => {
   return (
     <div className="footer">
       <div className="container">
-        <div className="py-3 pb-1 d-flex flex-column flex-md-row justify-content-center align-items-center text-center">
+        <div className="d-flex flex-column flex-md-row justify-content-center align-items-center text-center">
           <h5>Webmasters : </h5>
           <div className="done-by flex-grow-1">
-            <ul className="row w-100">
-              <li className="col-md-6">
+            <ul className="row">
+              <li className="col-md-4">
                 <a href="https://www.linkedin.com/in/keertivaas-sankaranarayanan-a6517218a/">
                   Keertivaas S
                 </a>
               </li>
-              <li className="col-md-6 text-justify">
+              <li className="col-md-4 text-justify">
                 <a href="https://www.linkedin.com/in/sriram-narayanan-189903192/">
                   Sriram Na
                 </a>
               </li>
-              <li className="col-md-6">
+              <li className="col-md-4">
                 <a href="https://www.linkedin.com/in/aadhithya-b-kailash-195b115b/">
                   Aadhithya B Kailash
                 </a>
               </li>
-              <li className="col-md-6">
+              <li className="col-md-4">
                 <a href="https://www.linkedin.com/in/anni-priscilla-a-ba0952215/">
                   Anni Priscilla
                 </a>
               </li>
-              <li className="col-md-6">
+              <li className="col-md-4">
                 <a href="https://www.linkedin.com/in/arun-pradeep-kalimuthu-8b5523214/">
                   Arun Pradeep
                 </a>
@@ -44,7 +44,7 @@ export const Footer = () => {
                 className="d-inline-block insta-icon"
               >
                 {/* color not working */}
-                <InstagramIcon url={InstaSVG} height={48} width={48} />
+                <InstagramIcon url={InstaSVG} height={40} width={40} />
                 <p style={{ fontSize: "0.65rem" }}>Instagram</p>
               </a>
             </div>

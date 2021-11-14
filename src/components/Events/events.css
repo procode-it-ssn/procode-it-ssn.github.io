@@ -1,0 +1,47 @@
+h1 {
+  padding: 20px;
+}
+
+.events {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+
+.event {
+  background-color: darkgray;
+  color: black;
+  border-radius: 20px;
+  padding: 20px;
+  margin: 20px;
+  min-width: 300px;
+}
+
+.event * {
+  margin: 20px;
+}
+
+.event .ev-name {
+  font-weight: bold;
+  font-size: 1.7rem;
+}
+
+.event .desc {
+  font-size: 1.2rem;
+}
+
+.event .speaker {
+  font-weight: bold;
+  font-size: 1.2rem;
+}
+
+.event a {
+  padding: 10px 20px;
+  border-radius: 10px;
+  background-color: #2e2e2e;
+}
+
+.event a:hover {
+  opacity: 70%;
+}

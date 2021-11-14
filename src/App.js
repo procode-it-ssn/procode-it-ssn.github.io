@@ -10,19 +10,21 @@ import { Theads } from "./views/Theads/Theads";
 import { Edheads } from "./views/Edheads/Edheads";
 import { Core } from "./views/Core/Core";
 import Footer from "./components/Footer";
+import Events from "./components/Events/Events";
 function App() {
   return (
     <div className="App">
       <Router>
         <Navbar />
         <Switch>
-          <Route exact path="/" exact component={Home} />
-          <Route exact path="/office" exact component={Office} />
-          <Route exact path="/theads" exact component={Theads} />
-          <Route exact path="/edheads" exact component={Edheads} />
-          <Route exact path="/core" exact component={Core} />
-          <Route exact path="/faculty/" exact component={Faculty} />
-          <Route exact path="*" exact component={null} />
+          <Route path="/" exact component={Home} />
+          <Route path="/office" exact component={Office} />
+          <Route path="/theads" exact component={Theads} />
+          <Route path="/edheads" exact component={Edheads} />
+          <Route path="/core" exact component={Core} />
+          <Route path="/faculty/" exact component={Faculty} />
+          <Route path="/events" exact component={Events} />
+          <Route path="*" exact component={null} />
         </Switch>
       </Router>
       <Footer />
