@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/static/css/main.2d3f6c13.chunk.css",
-    "main.js": "/static/js/main.85a7962f.chunk.js",
-    "main.js.map": "/static/js/main.85a7962f.chunk.js.map",
+    "main.css": "/static/css/main.dae3f08d.chunk.css",
+    "main.js": "/static/js/main.f0fe5747.chunk.js",
+    "main.js.map": "/static/js/main.f0fe5747.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.a1c0e935.js",
     "runtime-main.js.map": "/static/js/runtime-main.a1c0e935.js.map",
     "static/js/2.7138c32a.chunk.js": "/static/js/2.7138c32a.chunk.js",
     "static/js/2.7138c32a.chunk.js.map": "/static/js/2.7138c32a.chunk.js.map",
     "index.html": "/index.html",
-    "static/css/main.2d3f6c13.chunk.css.map": "/static/css/main.2d3f6c13.chunk.css.map",
+    "static/css/main.dae3f08d.chunk.css.map": "/static/css/main.dae3f08d.chunk.css.map",
     "static/js/2.7138c32a.chunk.js.LICENSE.txt": "/static/js/2.7138c32a.chunk.js.LICENSE.txt",
     "static/media/Keertivaas.d5b01e3f.jpg": "/static/media/Keertivaas.d5b01e3f.jpg",
     "static/media/abhaya2.921877ac.jpg": "/static/media/abhaya2.921877ac.jpg",
@@ -39,7 +39,7 @@
   "entrypoints": [
     "static/js/runtime-main.a1c0e935.js",
     "static/js/2.7138c32a.chunk.js",
-    "static/css/main.2d3f6c13.chunk.css",
-    "static/js/main.85a7962f.chunk.js"
+    "static/css/main.dae3f08d.chunk.css",
+    "static/js/main.f0fe5747.chunk.js"
   ]
 }
