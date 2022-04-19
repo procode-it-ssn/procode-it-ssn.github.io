@@ -1,4 +1,4 @@
-# Getting Started with the App
+# ProCoDe IT SSN WebApp
 
 ## Available Scripts
 
