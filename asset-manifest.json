@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.c37ee0f8.css",
-    "main.js": "/static/js/main.d1bbdd4a.js",
+    "main.css": "/static/css/main.789ead17.css",
+    "main.js": "/static/js/main.a802e499.js",
     "static/media/garden.jpg": "/static/media/garden.a4191600996e3e4dbc93.jpg",
     "static/media/garden2.jpg": "/static/media/garden2.be412bd4e4ccda110b9c.jpg",
     "static/media/garden4.jpg": "/static/media/garden4.9c8c697cf577e926f6fd.jpg",
@@ -28,11 +28,11 @@
     "static/media/dr_tss.jpg": "/static/media/dr_tss.a077d5bd8e215761d8e9.jpg",
     "index.html": "/index.html",
     "static/media/instagram-brands.svg": "/static/media/instagram-brands.7118b45902e200374327820859ce7662.svg",
-    "main.c37ee0f8.css.map": "/static/css/main.c37ee0f8.css.map",
-    "main.d1bbdd4a.js.map": "/static/js/main.d1bbdd4a.js.map"
+    "main.789ead17.css.map": "/static/css/main.789ead17.css.map",
+    "main.a802e499.js.map": "/static/js/main.a802e499.js.map"
   },
   "entrypoints": [
-    "static/css/main.c37ee0f8.css",
-    "static/js/main.d1bbdd4a.js"
+    "static/css/main.789ead17.css",
+    "static/js/main.a802e499.js"
   ]
 }
